@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Henny Penny', cursive;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    
+    <h1 style="background-color: yellow;text-align: center;border-radius: 30px;border-style: groove;">Registration Form</h1>
+    
+    <center> <form style="color: violet;" method="POST">
+        <label>First Name</label>
+        <input type="text" name="name" placeholder="first name">
+        <label>Last Name</label>
+        <input type="text" name="name" placeholder="Last Name"><br><br>
+        <label>username:</label>
+        <input type="text" name="name" placeholder="username">
+        <label>password  :</label>
+        <input type="password" name="password" placeholder="password"><br><br>
+        <label>enter mail:</label>
+        <input type="email" name="email" placeholder="enter mail">
+        <label>re-enter mail:</label>
+        <input type="email" name="email" placeholder="re-enter mail"><br><br>
+        <label>Gender Select:</label>
+        <input type="radio" name="g">Male
+        <input type="radio" name="g">Female
+        <input type="radio" name="g">Other<br>
+        <input type="file">
+        <label>select item:</label>
+        <input type="number" min="1" max="5"><br><br>
+        <select>
+            <option>--choose--</option>
+            <option value="admin">admin</option>
+            <option value="visitor">visitor</option>
+
+        </select><br><br>
+        <textarea cols="45" rows="5" style=" font-size: 20px;"></textarea><br>
+        <input type="checkbox" name="yes">yes, i read all<br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+        
+    </form></center><br><br>
+</body>
+</html>
